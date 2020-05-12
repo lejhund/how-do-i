@@ -72,12 +72,13 @@ mycont {
 .content {
   display: flex;
 }
-.center{
+.center {
   height: 90vh;
   width: 60%;
 }
-.left, .right{
+.left,
+.right {
   height: 200vh;
-  width:20%;
+  width: 20%;
   background-color: rgb(235, 235, 235);
 }
