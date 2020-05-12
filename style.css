@@ -1,0 +1,83 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.nav-text {
+  color: white;
+  font-family: "Ubuntu";
+  font-size: 18px;
+}
+.logo-text {
+  color: rgb(25, 179, 240);
+  font-size: 30px;
+  font-family: "fixed_v01";
+}
+.header {
+  padding: 40px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(59, 61, 63);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.searchbox input {
+  width: 500px;
+  height: 40px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 10px;
+  font-size: 18px;
+  outline: none;
+}
+.nav-link a {
+  text-decoration: none;
+  color: white;
+  font-family: "Ubuntu";
+  font-size: 18px;
+}
+.featured button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: none;
+  border: 1px solid white;
+  color: white;
+  font-family: "Ubuntu";
+  font-size: 16px;
+}
+.featured button:hover {
+  background: white;
+  color: rgb(59, 61, 63);
+  transition: ease 0.2s;
+  cursor: pointer;
+}
+mycont {
+  font-family: "Ubuntu";
+  font-size: 40px;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  0% {
+    opacity: 1;
+  }
+}
+.content {
+  display: flex;
+}
+.center{
+  height: 90vh;
+  width: 60%;
+}
+.left, .right{
+  height: 200vh;
+  width:20%;
+  background-color: rgb(235, 235, 235);
+}
